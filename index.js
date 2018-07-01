@@ -45,7 +45,8 @@ function total() {
 function removeFromCart(item) {
   var r = false;
   for (let i = 0; i < cart.length; i++){
-    if (cart[obj][itemName] === item) {
+    var obj = cart[i]
+    if (obj.hasOwnProperty[itemName] === item) {
       r = true;
       cart.shift(i);
     }
@@ -66,5 +67,4 @@ function placeOrder(cardNumber) {
   }
 }
 
-console.log(Object.getOwnPropertyNames(obj))
 
