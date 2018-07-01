@@ -65,3 +65,6 @@ function placeOrder(cardNumber) {
 
   }
 }
+
+console.log(Object.getOwnPropertyNames(obj))
+
