@@ -46,7 +46,7 @@ function removeFromCart(item) {
   var r = false;
   for (let i = 0; i < cart.length; i++){
     var obj = cart[i]
-    if (obj.hasOwnProperty[itemName] === item) {
+    if (obj.hasOwnProperty['itemName'] === item) {
       r = true;
       cart.shift(i);
     }
