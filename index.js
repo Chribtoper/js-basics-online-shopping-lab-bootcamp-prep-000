@@ -46,7 +46,7 @@ function removeFromCart(item) {
   var r = false;
   for (let i = 0; i < cart.length; i++){
     var obj = cart[i];
-    if (obj.hasOwnProperty['item'] === item) {
+    if (obj.hasOwnProperty(itemName) {
       r = true;
       cart.splice(i, 1);
     }
